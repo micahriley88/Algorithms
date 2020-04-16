@@ -3,7 +3,14 @@
 import sys
 
 def rock_paper_scissors(n):
-  pass 
+  choices = ['Rock', 'Paper', 'Scissors']
+  outcomes=[]
+  def helper(n):
+    if n == 0:
+      return outcomes
+    if n > 1:
+      
+
 
 
 if __name__ == "__main__":
